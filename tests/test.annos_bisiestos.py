@@ -2,8 +2,6 @@ import sys
 from pathlib import Path
 import unittest
 
-# Se adiciona el path del directorio padre,
-# para que podamos ejecutar los tests sin inconveniente
 root_path = Path(__file__).resolve().parent.parent
 print('root_path:')
 print(root_path)
